@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./category.js" defer></script>
+  </head>
+  <body>
+    <h1>Testing stocka api</h1>
+    <h4>Welcome <span id="username" style="color: darkslategrey"></span></h4>
+    <h2>Post a Category</h2>
+    <code class="category" id="result" style="color: green"></code>
+
+    <form action="" method="POST" id="form">
+      <small id="error">_________________</small>
+      <div class="form-group">
+        <label for="category">Category Name</label>
+        <input type="text" name="category" id="category" />
+      </div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea name="" id="description" cols="20" rows="3"></textarea>
+      </div>
+      <div class="btn-group">
+        <button class="btn" type="submit" id="save">Save</button>
+      </div>
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+* {
+    outline-style: none;
+}
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+    /* border: 1px solid rgb(15, 15, 202); */
+    border-radius: 5px;
+    /* text-align: center; */
+}
+small {
+    color: tomato;
+}
+.form-group {
+    padding: 5px;
+    margin: 10px 0;
+}
+.btn {
+    padding: 7px 10px;
+    background: rgb(15, 15, 202);
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
